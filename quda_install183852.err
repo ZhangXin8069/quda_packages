@@ -1,0 +1,170 @@
+fatal: No names found, cannot describe anything.
+[ 11%] Performing download step (download, verify and extract) for 'eigen-populate'
+-- File already exists but no hash specified (use URL_HASH):
+  file='/public/home/zhangxin/external-libraries/quda-develop/build/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-3.4.0.tar.bz2'
+Old file will be removed and new file downloaded from URL.
+-- Downloading...
+   dst='/public/home/zhangxin/external-libraries/quda-develop/build/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-3.4.0.tar.bz2'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.bz2'
+-- Retrying...
+-- Using src='https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.bz2'
+-- Retry after 5 seconds (attempt #2) ...
+-- Using src='https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.bz2'
+-- Retry after 5 seconds (attempt #3) ...
+-- Using src='https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.bz2'
+-- Retry after 15 seconds (attempt #4) ...
+-- Using src='https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.bz2'
+-- Retry after 60 seconds (attempt #5) ...
+-- Using src='https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.bz2'
+CMake Error at eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp/download-eigen-populate.cmake:170 (message):
+  Each download failed!
+
+    error: downloading 'https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.bz2' failed
+          status_code: 7
+          status_string: "Couldn't connect to server"
+          log:
+          --- LOG BEGIN ---
+            Trying 172.65.251.78:443...
+
+  connect to 172.65.251.78 port 443 failed: Connection refused
+
+    Trying 2606:4700:90:0:f22e:fbec:5bed:a9b9:443...
+
+  Immediate connect fail for 2606:4700:90:0:f22e:fbec:5bed:a9b9: Network is
+  unreachable
+
+  Failed to connect to gitlab.com port 443 after 2 ms: Connection refused
+
+  Closing connection 0
+
+  
+
+          --- LOG END ---
+          error: downloading 'https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.bz2' failed
+          status_code: 7
+          status_string: "Couldn't connect to server"
+          log:
+          --- LOG BEGIN ---
+            Trying 172.65.251.78:443...
+
+  connect to 172.65.251.78 port 443 failed: Connection refused
+
+    Trying 2606:4700:90:0:f22e:fbec:5bed:a9b9:443...
+
+  Immediate connect fail for 2606:4700:90:0:f22e:fbec:5bed:a9b9: Network is
+  unreachable
+
+  Failed to connect to gitlab.com port 443 after 0 ms: Connection refused
+
+  Closing connection 0
+
+  
+
+          --- LOG END ---
+          error: downloading 'https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.bz2' failed
+          status_code: 7
+          status_string: "Couldn't connect to server"
+          log:
+          --- LOG BEGIN ---
+            Trying 172.65.251.78:443...
+
+  connect to 172.65.251.78 port 443 failed: Connection refused
+
+    Trying 2606:4700:90:0:f22e:fbec:5bed:a9b9:443...
+
+  Immediate connect fail for 2606:4700:90:0:f22e:fbec:5bed:a9b9: Network is
+  unreachable
+
+  Failed to connect to gitlab.com port 443 after 1 ms: Connection refused
+
+  Closing connection 0
+
+  
+
+          --- LOG END ---
+          error: downloading 'https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.bz2' failed
+          status_code: 7
+          status_string: "Couldn't connect to server"
+          log:
+          --- LOG BEGIN ---
+            Trying 172.65.251.78:443...
+
+  connect to 172.65.251.78 port 443 failed: Connection refused
+
+    Trying 2606:4700:90:0:f22e:fbec:5bed:a9b9:443...
+
+  Immediate connect fail for 2606:4700:90:0:f22e:fbec:5bed:a9b9: Network is
+  unreachable
+
+  Failed to connect to gitlab.com port 443 after 1 ms: Connection refused
+
+  Closing connection 0
+
+  
+
+          --- LOG END ---
+          error: downloading 'https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.bz2' failed
+          status_code: 7
+          status_string: "Couldn't connect to server"
+          log:
+          --- LOG BEGIN ---
+            Trying 172.65.251.78:443...
+
+  connect to 172.65.251.78 port 443 failed: Connection refused
+
+    Trying 2606:4700:90:0:f22e:fbec:5bed:a9b9:443...
+
+  Immediate connect fail for 2606:4700:90:0:f22e:fbec:5bed:a9b9: Network is
+  unreachable
+
+  Failed to connect to gitlab.com port 443 after 1 ms: Connection refused
+
+  Closing connection 0
+
+  
+
+          --- LOG END ---
+          error: downloading 'https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.bz2' failed
+          status_code: 7
+          status_string: "Couldn't connect to server"
+          log:
+          --- LOG BEGIN ---
+            Trying 172.65.251.78:443...
+
+  connect to 172.65.251.78 port 443 failed: Connection refused
+
+    Trying 2606:4700:90:0:f22e:fbec:5bed:a9b9:443...
+
+  Immediate connect fail for 2606:4700:90:0:f22e:fbec:5bed:a9b9: Network is
+  unreachable
+
+  Failed to connect to gitlab.com port 443 after 1 ms: Connection refused
+
+  Closing connection 0
+
+  
+
+          --- LOG END ---
+          
+    
+
+
+gmake[2]: *** [eigen-populate-prefix/src/eigen-populate-stamp/eigen-populate-download] Error 1
+gmake[1]: *** [CMakeFiles/eigen-populate.dir/all] Error 2
+gmake: *** [all] Error 2
+
+CMake Error at /public/soft/linux-centos7-x86_64/gcc-10.3.0/cmake-3.22.2-lfaoe2iesrumw7ukmdw7y73tlps2sinl/share/cmake-3.22/Modules/FetchContent.cmake:1087 (message):
+  Build step for eigen failed: 2
+Call Stack (most recent call first):
+  /public/soft/linux-centos7-x86_64/gcc-10.3.0/cmake-3.22.2-lfaoe2iesrumw7ukmdw7y73tlps2sinl/share/cmake-3.22/Modules/FetchContent.cmake:1216:EVAL:2 (__FetchContent_directPopulate)
+  /public/soft/linux-centos7-x86_64/gcc-10.3.0/cmake-3.22.2-lfaoe2iesrumw7ukmdw7y73tlps2sinl/share/cmake-3.22/Modules/FetchContent.cmake:1216 (cmake_language)
+  build/cmake/CPM_0.36.0.cmake:967 (FetchContent_Populate)
+  build/cmake/CPM_0.36.0.cmake:773 (cpm_fetch_package)
+  CMakeLists.txt:421 (CPMAddPackage)
+
+
+gmake: Makefile: No such file or directory
+gmake: *** No rule to make target `Makefile'.  Stop.
+CMake Error: Error processing file: /public/home/zhangxin/external-libraries/quda-develop/build/cmake_install.cmake

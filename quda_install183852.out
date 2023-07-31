@@ -1,0 +1,39 @@
+~/external-libraries ~/quda_packages
+~/external-libraries/quda-develop ~/external-libraries ~/quda_packages
+~/external-libraries/quda-develop/build ~/external-libraries/quda-develop ~/external-libraries ~/quda_packages
+-- Found Git: /public/soft/linux-centos7-x86_64/gcc-10.3.0/git-2.40.0-723pst5pdujmhe6kflhgqyhq32ic456l/bin/git (found version "2.40.0") 
+-- 
+-- QUDA 1.1.0 (8f96912-dirty) **
+-- cmake version: 3.22.2
+-- Source location: /public/home/zhangxin/external-libraries/quda-develop
+-- Build location: /public/home/zhangxin/external-libraries/quda-develop/build
+-- Build type: DEVEL
+-- QUDA target: CUDA
+-- The CXX compiler identification is GNU 10.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /public/soft/linux-centos7-x86_64/gcc-4.8.5/gcc-10.3.0-uoicdrf766usj4ma5wxqq4zaqgatfyy3/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The C compiler identification is GNU 10.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /public/soft/linux-centos7-x86_64/gcc-4.8.5/gcc-10.3.0-uoicdrf766usj4ma5wxqq4zaqgatfyy3/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- CPM: adding package Eigen@3.4.0 (3.4.0)
+-- Configuring incomplete, errors occurred!
+See also "/public/home/zhangxin/external-libraries/quda-develop/build/CMakeFiles/CMakeOutput.log".
+See also "/public/home/zhangxin/external-libraries/quda-develop/build/CMakeFiles/CMakeError.log".
+~/external-libraries/quda-develop ~/external-libraries ~/quda_packages
+~/external-libraries ~/quda_packages
+~/quda_packages

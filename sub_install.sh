@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=quda_install%j
-#SBATCH --partition=cpueicc
+#SBATCH --partition=gpu-debug
 #SBATCH --nodes=1
 # #SBATCH --cpus-per-task=1
 # #SBATCH -n 48
