@@ -1,0 +1,99 @@
+~/external-libraries ~/quda_packages
+~/external-libraries/quda-develop ~/external-libraries ~/quda_packages
+~/external-libraries/quda-develop/build ~/external-libraries/quda-develop ~/external-libraries ~/quda_packages
+-- 
+-- QUDA 1.1.0 (8f96912-dirty) **
+-- cmake version: 3.22.2
+-- Source location: /public/home/zhangxin/external-libraries/quda-develop
+-- Build location: /public/home/zhangxin/external-libraries/quda-develop/build
+-- Build type: DEVEL
+-- QUDA target: CUDA
+-- CPM: adding package Eigen@3.4.0 (3.4.0)
+-- QUDA_mdw_fused_Ls=4,8,12,16,20
+-- QUDA_MULTIGRID_NVEC_LIST=6,24,32
+-- QUDA_MULTIGRID_MRHS_LIST=16
+-- CUDA Compiler is/public/soft/linux-centos7-x86_64/gcc-10.3.0/cuda-11.4.4-uizl3zvwy66u3bqllanvuxwxxwfyytwo/bin/nvcc
+-- Compiler ID is NVIDIA
+-- CUDA Build Type: NVCC
+-- Heterogeneous atomics supported: ON
+-- QUDA_MULTIGRID_MRHS_LIST=16
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /public/home/zhangxin/external-libraries/quda-develop/build
+Consolidate compiler generated dependencies of target quda_cpp
+[  1%] Building CXX object lib/CMakeFiles/quda_cpp.dir/dirac_coarse.cpp.o
+[  1%] Building CXX object lib/CMakeFiles/quda_cpp.dir/dslash_coarse.cpp.o
+[  1%] Building CXX object lib/CMakeFiles/quda_cpp.dir/coarse_op.cpp.o
+[  1%] Building CXX object lib/CMakeFiles/quda_cpp.dir/coarsecoarse_op.cpp.o
+[  2%] Building CXX object lib/CMakeFiles/quda_cpp.dir/coarse_op_preconditioned.cpp.o
+[  2%] Building CXX object lib/CMakeFiles/quda_cpp.dir/staggered_coarse_op.cpp.o
+[  3%] Building CXX object lib/CMakeFiles/quda_cpp.dir/eig_iram.cpp.o
+[  3%] Building CXX object lib/CMakeFiles/quda_cpp.dir/eig_trlm.cpp.o
+[  3%] Building CXX object lib/CMakeFiles/quda_cpp.dir/eig_block_trlm.cpp.o
+[  4%] Building CXX object lib/CMakeFiles/quda_cpp.dir/eigensolve_quda.cpp.o
+[  4%] Building CXX object lib/CMakeFiles/quda_cpp.dir/vector_io.cpp.o
+[  4%] Building CXX object lib/CMakeFiles/quda_cpp.dir/quda_arpack_interface.cpp.o
+[  5%] Building CXX object lib/CMakeFiles/quda_cpp.dir/transfer.cpp.o
+[  5%] Building CXX object lib/CMakeFiles/quda_cpp.dir/prolongator.cpp.o
+[  5%] Building CXX object lib/CMakeFiles/quda_cpp.dir/block_orthogonalize.cpp.o
+[  5%] Building CXX object lib/CMakeFiles/quda_cpp.dir/multigrid.cpp.o
+[  5%] Building CXX object lib/CMakeFiles/quda_cpp.dir/restrictor.cpp.o
+[  6%] Building CXX object lib/CMakeFiles/quda_cpp.dir/timer.cpp.o
+[  6%] Building CXX object lib/CMakeFiles/quda_cpp.dir/solver.cpp.o
+[  6%] Building CXX object lib/CMakeFiles/quda_cpp.dir/inv_cg_quda.cpp.o
+[  7%] Building CXX object lib/CMakeFiles/quda_cpp.dir/inv_bicgstabl_quda.cpp.o
+[  7%] Building CXX object lib/CMakeFiles/quda_cpp.dir/inv_bicgstab_quda.cpp.o
+[  7%] Building CXX object lib/CMakeFiles/quda_cpp.dir/inv_multi_cg_quda.cpp.o
+[  7%] Building CXX object lib/CMakeFiles/quda_cpp.dir/inv_eigcg_quda.cpp.o
+[  7%] Building CXX object lib/CMakeFiles/quda_cpp.dir/gauge_observable.cpp.o
+[  7%] Building CXX object lib/CMakeFiles/quda_cpp.dir/inv_cg3_quda.cpp.o
+[  8%] Building CXX object lib/CMakeFiles/quda_cpp.dir/gauge_laplace.cpp.o
+[  8%] Building CXX object lib/CMakeFiles/quda_cpp.dir/inv_ca_gcr.cpp.o
+[  8%] Building CXX object lib/CMakeFiles/quda_cpp.dir/inv_mr_quda.cpp.o
+[  9%] Building CXX object lib/CMakeFiles/quda_cpp.dir/inv_ca_cg.cpp.o
+[  9%] Building CXX object lib/CMakeFiles/quda_cpp.dir/inv_gcr_quda.cpp.o
+[ 10%] Building CXX object lib/CMakeFiles/quda_cpp.dir/inv_sd_quda.cpp.o
+[ 10%] Building CXX object lib/CMakeFiles/quda_cpp.dir/inv_pcg_quda.cpp.o
+[ 10%] Building CXX object lib/CMakeFiles/quda_cpp.dir/interface_quda.cpp.o
+[ 10%] Building CXX object lib/CMakeFiles/quda_cpp.dir/inv_mre.cpp.o
+[ 11%] Building CXX object lib/CMakeFiles/quda_cpp.dir/util_quda.cpp.o
+[ 12%] Building CXX object lib/CMakeFiles/quda_cpp.dir/dirac.cpp.o
+[ 12%] Building CXX object lib/CMakeFiles/quda_cpp.dir/gauge_covdev.cpp.o
+[ 13%] Building CXX object lib/CMakeFiles/quda_cpp.dir/lattice_field.cpp.o
+[ 13%] Building CXX object lib/CMakeFiles/quda_cpp.dir/field_cache.cpp.o
+[ 13%] Building CXX object lib/CMakeFiles/quda_cpp.dir/gauge_field.cpp.o
+[ 13%] Building CXX object lib/CMakeFiles/quda_cpp.dir/color_spinor_field.cpp.o
+[ 13%] Building CXX object lib/CMakeFiles/quda_cpp.dir/clover_field.cpp.o
+[ 13%] Building CXX object lib/CMakeFiles/quda_cpp.dir/cpu_gauge_field.cpp.o
+[ 13%] Building CXX object lib/CMakeFiles/quda_cpp.dir/dirac_wilson.cpp.o
+[ 14%] Building CXX object lib/CMakeFiles/quda_cpp.dir/dirac_staggered.cpp.o
+[ 14%] Building CXX object lib/CMakeFiles/quda_cpp.dir/dirac_clover.cpp.o
+[ 14%] Building CXX object lib/CMakeFiles/quda_cpp.dir/cuda_gauge_field.cpp.o
+[ 15%] Building CXX object lib/CMakeFiles/quda_cpp.dir/dirac_staggered_kd.cpp.o
+[ 15%] Building CXX object lib/CMakeFiles/quda_cpp.dir/dirac_improved_staggered.cpp.o
+[ 15%] Building CXX object lib/CMakeFiles/quda_cpp.dir/dirac_clover_hasenbusch_twist.cpp.o
+[ 15%] Building CXX object lib/CMakeFiles/quda_cpp.dir/dirac_improved_staggered_kd.cpp.o
+[ 16%] Building CXX object lib/CMakeFiles/quda_cpp.dir/dirac_domain_wall.cpp.o
+[ 16%] Building CXX object lib/CMakeFiles/quda_cpp.dir/dirac_domain_wall_4d.cpp.o
+[ 16%] Building CXX object lib/CMakeFiles/quda_cpp.dir/dirac_mobius.cpp.o
+[ 17%] Building CXX object lib/CMakeFiles/quda_cpp.dir/dirac_twisted_clover.cpp.o
+[ 17%] Building CXX object lib/CMakeFiles/quda_cpp.dir/dirac_twisted_mass.cpp.o
+[ 17%] Building CXX object lib/CMakeFiles/quda_cpp.dir/comm_common.cpp.o
+[ 17%] Building CXX object lib/CMakeFiles/quda_cpp.dir/communicator_stack.cpp.o
+[ 18%] Building CXX object lib/CMakeFiles/quda_cpp.dir/copy_color_spinor.cpp.o
+[ 18%] Building CXX object lib/CMakeFiles/quda_cpp.dir/copy_gauge.cpp.o
+[ 18%] Building CXX object lib/CMakeFiles/quda_cpp.dir/milc_interface.cpp.o
+[ 19%] Building CXX object lib/CMakeFiles/quda_cpp.dir/tune.cpp.o
+[ 19%] Building CXX object lib/CMakeFiles/quda_cpp.dir/inv_gmresdr_quda.cpp.o
+[ 19%] Building CXX object lib/CMakeFiles/quda_cpp.dir/deflation.cpp.o
+[ 19%] Building CXX object lib/CMakeFiles/quda_cpp.dir/madwf_ml.cpp.o
+[ 20%] Building CXX object lib/CMakeFiles/quda_cpp.dir/instantiate.cpp.o
+[ 20%] Building CXX object lib/CMakeFiles/quda_cpp.dir/version.cpp.o
+[ 20%] Building CXX object lib/CMakeFiles/quda_cpp.dir/communicator_single.cpp.o
+[ 21%] Building CXX object lib/CMakeFiles/quda_cpp.dir/targets/cuda/quda_api.cpp.o
+[ 21%] Building CXX object lib/CMakeFiles/quda_cpp.dir/targets/cuda/device.cpp.o
+[ 21%] Building CXX object lib/CMakeFiles/quda_cpp.dir/targets/cuda/malloc.cpp.o
+[ 21%] Building CXX object lib/CMakeFiles/quda_cpp.dir/targets/cuda/blas_lapack_cublas.cpp.o
+[ 22%] Building CXX object lib/CMakeFiles/quda_cpp.dir/targets/cuda/comm_target.cpp.o
+[ 22%] Building CXX object lib/CMakeFiles/quda_cpp.dir/targets/generic/blas_lapack_eigen.cpp.o
+[ 22%] Building CXX object lib/CMakeFiles/quda_cpp.dir/interface/blas_interface.cpp.o
