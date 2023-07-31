@@ -1,0 +1,16 @@
+~/external-libraries ~/quda_packages
+~/external-libraries/quda-develop ~/external-libraries ~/quda_packages
+~/external-libraries/quda-develop/build ~/external-libraries/quda-develop ~/external-libraries ~/quda_packages
+-- 
+-- QUDA 1.1.0 (8f96912-dirty) **
+-- cmake version: 3.22.2
+-- Source location: /public/home/zhangxin/external-libraries/quda-develop
+-- Build location: /public/home/zhangxin/external-libraries/quda-develop/build
+-- Build type: DEVEL
+-- QUDA target: CUDA
+-- Configuring incomplete, errors occurred!
+See also "/public/home/zhangxin/external-libraries/quda-develop/build/CMakeFiles/CMakeOutput.log".
+See also "/public/home/zhangxin/external-libraries/quda-develop/build/CMakeFiles/CMakeError.log".
+~/external-libraries/quda-develop ~/external-libraries ~/quda_packages
+~/external-libraries ~/quda_packages
+~/quda_packages
